@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Yaz İndirimi",
+    "description": "Yaz koleksiyonumuzda %50'ye varan indirim fırsatları!",
+    "image": "/images/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Kış İndirimi",
+    "description": "Kış sezonu için büyük indirimler!",
+    "image": "/images/2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Yeni Ürünler",
+    "description": "Yeni gelen ürünleri keşfedin, şimdi %20 indirimle!",
+    "image": "/images/3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Yeni Ürünler",
+    "description": "Yeni gelen ürünleri keşfedin, şimdi %20 indirimle!",
+    "image": "/images/4.jpg"
+  }
+]

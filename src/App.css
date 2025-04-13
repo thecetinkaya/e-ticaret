@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+/* Sayfa genel */
+.home-container {
+  @apply p-4 min-h-screen bg-gray-50 w-[90%] mx-auto;
+}
+
+/* Arama filtresi bölümü */
+.home-filter-bar {
+  @apply flex flex-col md:flex-row items-center justify-between gap-4 mb-8;
+}
+
+.search-form {
+  @apply w-full max-w-2xl;
+}
+
+.search-group {
+  @apply relative;
+}
+
+.search-select {
+  @apply absolute left-0 z-10 block p-2.5 text-sm text-gray-900 bg-gray-100 border border-gray-300 rounded-l-lg focus:ring-blue-500 focus:border-blue-500;
+}
+
+.search-input {
+  @apply block w-full p-2.5 pl-40 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-blue-500 focus:border-blue-500;
+}
+
+/* Ürün listesi */
+.product-list-container {
+  @apply min-h-[300px];
+}
+
+.product-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6;
+}
+
+/* Arama sonucu bulunamazsa */
+.no-results {
+  @apply flex flex-col items-center justify-center h-96 text-center;
+}
+
+.no-results h2 {
+  @apply text-xl font-semibold text-gray-700;
+}
+
+.no-results p {
+  @apply text-gray-500;
+}
