@@ -1,92 +1,91 @@
-# E-Ticaret Uygulaması
+# E-Commerce Application
 
-Bu proje, **React**, **Tailwind CSS** ve **Context API** kullanılarak geliştirilmiş bir e-ticaret uygulamasıdır. Kullanıcılar, ürünleri inceleyebilir, sepete ekleyebilir ve ödeme işlemi yapabilirler. Uygulama, dinamik arama, filtreleme ve ürün yönetimi gibi özellikler sunmaktadır.
+This project is an e-commerce application developed using **React**, **Tailwind CSS**, and **Context API**. Users can browse products, add them to their cart, and complete the checkout process. The app features dynamic search, filtering, and product management capabilities.
 
-## Teknolojiler
+## Technologies
 
-- **React**: Kullanıcı arayüzünü oluşturmak için kullanıldı.
-- **Tailwind CSS**: Sayfa tasarımı ve responsive özellikler için kullanıldı.
-- **Context API**: Global state yönetimi için kullanıldı.
-- **Swiper**: Ürünleri göstermek için slider işlevi sağladı.
+- **React**: Used to build the user interface.
+- **Tailwind CSS**: Used for page design and responsive features.
+- **Context API**: Used for global state management.
+- **Swiper**: Used for the slider functionality to display products.
 
-## Home Sayfası
+## Home Page
 
-Home sayfası, kullanıcıların alışverişe başlamasını sağlayan ana sayfadır. Sayfada şunlar bulunur:
+The home page is the main landing page that allows users to start their shopping experience. The page includes the following features:
 
 1. **Swiper Slider**:
 
-   - **Swiper** kütüphanesi kullanılarak, kampanyalar ve promosyonlar için dinamik bir slider eklenmiştir. Kullanıcılar, bu slider aracılığıyla kampanyaları kolayca görüntüleyebilir.
-   - Slider otomatik geçiş yapar ve her kaydırmada yeni bir kampanya görseli sunar.
+   - A dynamic slider for campaigns and promotions has been implemented using the **Swiper** library. Users can easily view campaigns through this slider.
+   - The slider transitions automatically, presenting a new campaign image with each slide.
 
-2. **Ürün Filtreleme ve Arama**:
+2. **Product Filtering and Search**:
 
-   - Kullanıcılar, **dropdown** menüsü ile ürün kategorilerini seçebilir ve **search bar** ile arama yaparak ürünleri filtreleyebilirler.
-   - Bu özellik, ürünlerin kolayca bulunmasını sağlar.
+   - Users can choose product categories via a **dropdown** menu and filter products using the **search bar**.
+   - This feature helps users easily find products.
 
-3. **Ürün Listeleme**:
-   - Seçilen kategori ve arama filtresine göre ürünler liste halinde görüntülenir.
+3. **Product Listing**:
 
-## Ürün Detay Sayfası
+   - Products are displayed in a list based on the selected category and search filter.
 
-Ürün detay sayfası, her bir ürünün ayrıntılarını gösterir. Bu sayfada:
+## Product Details Page
 
-- **Ürün adı, fiyatı, açıklaması ve görselleri** yer alır.
-- Kullanıcılar ürünü sepete ekleyebilirler.
+The product details page shows the details of each product. On this page, you’ll find:
 
-## Sepet Sayfası
+- **Product name, price, description, and images**.
+- Users can add products to their cart from here.
 
-Sepet sayfasında, kullanıcının sepete eklediği ürünler görüntülenir. Bu sayfada şunlar yapılabilir:
+## Cart Page
 
-1. **Ürün Sayısını Arttırma veya Azaltma**:
-   - Sepetteki ürünlerin miktarını değiştirebilirsiniz.
-2. **Ürün Silme**:
+On the cart page, users can view the products they’ve added to their cart. The following actions can be performed here:
 
-   - Sepetteki istenmeyen ürünler silinebilir.
+1. **Increase or Decrease Product Quantity**:
+   - Users can change the quantity of products in the cart.
 
-3. **Sepeti Onaylama**:
-   - Kullanıcılar, sepetteki ürünleri onayladığında checkout sayfasına yönlendirilir.
+2. **Remove Products**:
 
-## Checkout Sayfası
+   - Users can remove unwanted products from the cart.
 
-Checkout sayfasında, kullanıcılar ödeme işlemini gerçekleştirebilir. Bu sayfa, ürünlerin ve toplam tutarın görüntülendiği bir ödeme sayfasıdır.
+3. **Confirm Cart**:
+   - Once the user confirms the cart, they are redirected to the checkout page.
 
-- Kullanıcı ödeme bilgilerini girerek, satın alma işlemini tamamlar.
-- Ödeme işlemi başarılı olduğunda kullanıcıya onay mesajı gösterilir.
+## Checkout Page
 
-## Proje Kurulumu
+On the checkout page, users can complete the payment process. This page displays the products and the total amount.
 
-Bu projeyi yerel olarak çalıştırmak için şu adımları izleyebilirsiniz:
+- Users can enter payment details to complete the purchase.
+- A confirmation message is displayed once the payment is successfully processed.
 
-1. Projeyi klonlayın:
+## Project Setup
+
+To run this project locally, follow these steps:
+
+1. Clone the project:
 
    ```bash
    git clone https://github.com/thecetinkaya/e-ticaret.git
 
-   ```
 
-2. Proje dizinine gidin:
+2. Navigate to the project directory:
 
    ```bash
    cd e-ticaret
 
    ```
 
-3. Bağımlılıkları yükleyin:
+3. Install dependencies:
 
    ```bash
    npm install
 
    ```
 
-4. Uygulamayı başlatın:
+4. Start the application:
    ```bash
    npm run dev
    ```
 
 ## Katkı
 
-Herhangi bir katkıda bulunmak isterseniz, lütfen bir pull request oluşturun.
+If you would like to contribute, please create a pull request.
 
-## Lisans
 
-Bu proje MIT lisansı ile lisanslanmıştır. Detaylar için LICENSE dosyasına bakabilirsiniz.
