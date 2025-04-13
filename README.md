@@ -84,7 +84,7 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 
-## Katkı
+## Contributing
 
 If you would like to contribute, please create a pull request.
 
