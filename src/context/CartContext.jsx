@@ -8,7 +8,7 @@ const initialState = {
 function reducer(state, action) {
   switch (action.type) {
     case "ADD_TO_CART":
-      const existing = state.cart.find((item) => item.id === action.payload.id);
+      var existing = state.cart.find((item) => item.id === action.payload.id);
       if (existing) {
         return {
           ...state,
